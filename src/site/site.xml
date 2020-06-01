@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2020 Foreseeti AB
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<project>
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>1.9</version>
+  </skin>
+  <custom>
+    <fluidoSkin>
+      <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <gitHub>
+        <projectId>mal-lang/mal-parent</projectId>
+        <ribbonOrientation>right</ribbonOrientation>
+      </gitHub>
+    </fluidoSkin>
+  </custom>
+  <bannerLeft>
+    <name>MAL</name>
+    <src>https://mal-lang.org/helmet.svg</src>
+    <href>https://mal-lang.org/</href>
+  </bannerLeft>
+  <publishDate position="right"/>
+  <version position="right"/>
+  <body>
+    <menu ref="reports"/>
+    <breadcrumbs>
+      <item name="MAL" href="https://mal-lang.org/"/>
+      <item name="Page Test" href="https://mal-lang.org/mal-parent/"/>
+    </breadcrumbs>
+    <footer><![CDATA[
+      <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <p>
+          Copyright &copy; 2020
+          <a href="https://www.foreseeti.com/"><span style="white-space: nowrap;">Foreseeti AB</span></a>,
+          Licensed under the
+          <a href="https://www.apache.org/licenses/LICENSE-2.0"><span style="white-space: nowrap;">Apache License, Version 2.0</span></a>.
+        </p>
+        <img alt="MAL logo" style="width: 3em; height: 3em;" src="https://mal-lang.org/helmet.svg"/>
+        <p>
+          This work,
+          &quot;<span style="white-space: nowrap;">MAL logo</span>&quot;,
+          is a derivative of
+          &quot;<a href="https://thenounproject.com/term/diving-helmet/2448842/"><span style="white-space: nowrap;">Diving Helmet</span></a>&quot;
+          icon by
+          <a href="https://thenounproject.com/madexmadeicons/"><span style="white-space: nowrap;">Made x Made Icons</span></a>
+          from
+          <a href="https://thenounproject.com/"><span style="white-space: nowrap;">the Noun Project</span></a>,
+          used under
+          <a href="https://creativecommons.org/licenses/by/3.0/"><span style="white-space: nowrap;">CC BY 3.0</span></a>.
+          <br/>
+          &quot;<span style="white-space: nowrap;">MAL logo</span>&quot;
+          is licensed under
+          <a href="https://creativecommons.org/licenses/by/4.0/"><span style="white-space: nowrap;">CC BY 4.0</span></a>
+          by
+          <a href="https://www.foreseeti.com/"><span style="white-space: nowrap;">Foreseeti AB</span></a>.
+        </p>
+      </div>
+    ]]></footer>
+  </body>
+</project>

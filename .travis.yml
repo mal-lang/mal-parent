@@ -1,0 +1,27 @@
+language: java
+dist: focal
+os:
+  - linux
+  - osx
+jdk:
+  - openjdk11
+  - openjdk14
+
+notifications:
+  email: false
+
+git:
+  depth: false
+  quiet: true
+
+install: skip
+script: scripts/build-travis.sh
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: site
+  on:
+    condition: -d site
