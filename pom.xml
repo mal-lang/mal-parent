@@ -233,7 +233,7 @@ limitations under the License.
             <dependency>
               <groupId>com.puppycrawl.tools</groupId>
               <artifactId>checkstyle</artifactId>
-              <version>8.32</version>
+              <version>8.33</version>
             </dependency>
           </dependencies>
         </plugin>
@@ -348,6 +348,7 @@ limitations under the License.
               <report>summary</report>
               <report>dependency-info</report>
               <report>scm</report>
+              <report>distribution-management</report>
               <report>issue-management</report>
               <report>team</report>
               <report>licenses</report>
