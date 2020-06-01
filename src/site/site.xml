@@ -40,7 +40,7 @@ limitations under the License.
     <menu ref="reports"/>
     <breadcrumbs>
       <item name="MAL" href="https://mal-lang.org/"/>
-      <item name="Page Test" href="https://mal-lang.org/mal-parent/"/>
+      <item name="MAL Parent" href="https://mal-lang.org/mal-parent/"/>
     </breadcrumbs>
     <footer><![CDATA[
       <div style="display: flex; flex-direction: column; align-items: center; text-align: center;">
