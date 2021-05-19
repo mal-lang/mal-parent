@@ -82,6 +82,6 @@ Get the snapshot commit merged as in step 2 above.
 
 ## License
 
-Copyright © 2020 [Foreseeti AB](https://foreseeti.com)
+Copyright © 2020-2021 [Foreseeti AB](https://foreseeti.com)
 
 Licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).

@@ -1,3 +1,5 @@
+# shellcheck shell=sh
+
 get_latest_assets() {
   curl -fLSs "https://api.github.com/repos/google/google-java-format/releases/latest" | jq -c .assets[]
 }
