@@ -451,7 +451,6 @@ limitations under the License.
               <report>plugins</report>
               <report>dependency-management</report>
               <report>dependencies</report>
-              <report>dependency-convergence</report>
             </reports>
           </reportSet>
         </reportSets>
