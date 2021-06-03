@@ -24,7 +24,16 @@ format_java() {
   fi
 
   echo "Formatting $(echo "$changed_java" | wc -l) java files"
-  echo "$changed_java" | tr "\n" "\0" | xargs -0 java -jar "$fmt_jar" --replace
+  echo "$changed_java" |
+    tr "\n" "\0" |
+    xargs -0 java \
+      --add-exports jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED \
+      --add-exports jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED \
+      --add-exports jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED \
+      --add-exports jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED \
+      --add-exports jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED \
+      -jar "$fmt_jar" \
+      --replace
   echo "$changed_java" | tr "\n" "\0" | xargs -0 git add -f
 }
 
